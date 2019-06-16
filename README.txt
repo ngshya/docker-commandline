@@ -19,3 +19,10 @@ docker stop <container-id/name>
 docker kill <container-id/name>
 docker rm <container-id/name>
 
+# commit and tag a container
+docker commit <container-name>
+
+# push an image
+docker login --username <username>
+docker tag <image-name> <username>/<repository-name>:<tag>
+docker push <username>/<repository-name>:<tag>
