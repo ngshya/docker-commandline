@@ -11,7 +11,7 @@ docker ps --all
 docker container rm <container-id>
 
 # operation with containers
-docker run -it --name <container-name> <image-name> bash
+docker run -it --hostname ds --name <container-name> <image-name> bash
 docker pause <container-id/name>
 docker unpause <container-id/name>
 docker start <container-id/name>
