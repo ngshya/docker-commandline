@@ -18,6 +18,7 @@ docker start <container-id/name>
 docker stop <container-id/name>
 docker kill <container-id/name>
 docker rm <container-id/name>
+docker inspect <container-id/name>
 
 # commit and tag a container
 docker commit <container-name>
