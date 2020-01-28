@@ -11,7 +11,7 @@ docker ps --all
 docker container rm <container-id>
 
 # operation with containers
-docker run -it -v <host-path>:<container-path> -p 5000:5000 -p 8888:8888 -p 80:80 -p 443:443 --hostname ds --name <container-name> <image-name> bash
+docker run -it -v <host-path>:<container-path> -p 5000:5000 -p 8888:8888 --hostname ds --name <container-name> <image-name> bash
 docker exec -it <container-id> bash
 docker volume create --name <vol-name>
 docker pause <container-id/name>
